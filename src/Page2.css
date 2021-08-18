@@ -1,0 +1,255 @@
+.Page2 {
+  width: 1920px;
+  height: 1020px;
+  border: 1px solid white;
+}
+
+.Page2 header {
+  /* border: 1px solid red; */
+  width: 954px;
+  height: 198px;
+  margin-left: 483px;
+  margin-top: 91px;
+  position: relative;
+}
+
+.Page2 header .content-1 {
+  /* border: 1px solid red; */
+  width: 108px;
+  height: 23px;
+  position: absolute;
+  left: 426px;
+  font-style: oblique;
+  line-height: 23px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Page2 header .content-2 {
+  /* border: 1px solid red; */
+  width: 268px;
+  height: 23px;
+  position: absolute;
+  left: 343px;
+  top: 46px;
+  font-weight: bold;
+  line-height: 23px;
+  text-align: center;
+}
+
+.Page2 header .content-2 ::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #f38181;
+  margin-top: 40px;
+  margin-left: 104px;
+}
+
+.Page2 header .content-3 {
+  /* border: 1px solid red; */
+  width: 954px;
+  height: 39px;
+  position: absolute;
+  left: 0px;
+  top: 159px;
+  text-align: center;
+}
+
+.Page2 .content {
+  /* border: 1px solid red; */
+  width: 1221px;
+  height: 461px;
+  margin-left: 344px;
+  position: relative;
+  display: flex;
+}
+
+.Page2 .content .box {
+  /* border: 1px solid red; */
+  width: 380px;
+  height: 250px;
+  margin-top: 101px;
+}
+
+.Page2 .content .box11 {
+  margin-left: 16px;
+  background: #95e1d3;
+  position: relative;
+}
+.Page2 .content .box12 {
+  width: 380px;
+  height: 250px;
+  position: absolute;
+  bottom: 10px;
+  left: -10px;
+  /* border: 1px solid red; */
+}
+
+.Page2 .content .box2 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.Page2 footer {
+  height: 270px;
+  background: #95e1d3;
+}
+.Page2 footer .main2 {
+  width: 1200px;
+  display: flex;
+  margin-left: 359px;
+}
+
+.Page2 footer .main2 .info1 {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 240px;
+  height: 270px;
+  position: relative;
+}
+
+.Page2 footer .main2 .info1 .info1-number {
+  position: absolute;
+  width: 85px;
+  height: 51px;
+  font-size: 72px;
+  color: #ffffff;
+  left: 79px;
+  top: 89px;
+  line-height: 51px;
+}
+
+.Page2 footer .main2 .info1 .info1-text {
+  position: absolute;
+  width: 169px;
+  height: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  left: 36px;
+  top: 170px;
+  line-height: 10px;
+}
+
+.Page2 footer .main2 .info2 {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 240px;
+  height: 270px;
+  position: relative;
+}
+
+.Page2 footer .main2 .info2 .info2-number {
+  position: absolute;
+  width: 111px;
+  height: 52px;
+  font-size: 72px;
+  color: #ffffff;
+  left: 55px;
+  top: 89px;
+  line-height: 51px;
+  text-align: center;
+}
+
+.Page2 footer .main2 .info2 .info2-text {
+  position: absolute;
+  width: 101px;
+  height: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  left: 71px;
+  top: 170px;
+  line-height: 10px;
+  text-align: center;
+}
+
+.Page2 footer .main2 .info3 {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 240px;
+  height: 270px;
+  position: relative;
+}
+
+.Page2 footer .main2 .info3 .info3-number {
+  position: absolute;
+  width: 70px;
+  height: 52px;
+  font-size: 72px;
+  color: #ffffff;
+  left: 76px;
+  top: 89px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.Page2 footer .main2 .info3 .info3-text {
+  position: absolute;
+  width: 119px;
+  height: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  left: 61px;
+  top: 170px;
+  line-height: 10px;
+}
+
+.Page2 footer .main2 .info4 {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 240px;
+  height: 270px;
+  position: relative;
+}
+
+.Page2 footer .main2 .info4 .info4-number {
+  position: absolute;
+  width: 87px;
+  height: 52px;
+  font-size: 72px;
+  color: #ffffff;
+  left: 78px;
+  top: 89px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.Page2 footer .main2 .info4 .info4-text {
+  position: absolute;
+  width: 111px;
+  height: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  left: 65px;
+  top: 170px;
+  line-height: 10px;
+  text-align: center;
+}
+
+.Page2 footer .main2 .info5 {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 240px;
+  height: 270px;
+  position: relative;
+}
+
+.Page2 footer .main2 .info5 .info5-number {
+  position: absolute;
+  width: 87px;
+  height: 51px;
+  font-size: 72px;
+  color: #ffffff;
+  left: 79px;
+  top: 89px;
+  line-height: 51px;
+  text-align: center;
+}
+
+.Page2 footer .main2 .info5 .info5-text {
+  position: absolute;
+  width: 72px;
+  height: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  left: 85px;
+  top: 170px;
+  line-height: 10px;
+  text-align: center;
+}

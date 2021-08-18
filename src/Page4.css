@@ -1,0 +1,62 @@
+.Page4 {
+  width: 1920px;
+  height: 850px;
+  border: 1px solid white;                      
+  background-image: url(../img/feauture.png);
+  position: relative;
+}
+
+
+
+.Page4 .content-1 {
+  /* border: 1px solid red; */
+  width: 131px;
+  height: 24px;
+  position: absolute;
+  left: 897px;
+  top: 109px;
+  font-style: oblique;
+  line-height: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Page4 .content-2 {
+  /* border: 1px solid red; */
+  width: 245px;
+  height: 27px;
+  position: absolute;
+  left: 836px;
+  top: 155px;
+  font-weight: bold;
+  line-height: 27px;
+  text-align: center;
+}
+
+.Page4 .content-2 ::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #f38181;
+  margin-top: 38px;
+  margin-left: 94px;
+}
+
+.Page4 .ipad{
+  width: 477px;
+  height: 582px;
+  /* border: 1px solid red; */
+  position: absolute;
+  left: 695px;
+  top: 268px;
+}
+
+.Page4 .iphone{
+  width: 274px;
+  height: 476px;
+  /* border: 1px solid red; */
+  position: absolute;
+  left: 1057px;
+  top: 465px;
+}

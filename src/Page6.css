@@ -1,0 +1,195 @@
+.Page6 {
+  width: 1920px;
+  height: 1299px;
+  border: 1px solid white;
+}
+
+.Page6 .h6 {
+  /* border: 1px solid red; */
+  width: 954px;
+  height: 198px;
+  margin-left: 483px;
+  margin-top: 99px;
+  position: relative;
+}
+
+.Page6 .h6 .content-1 {
+  /* border: 1px solid red; */
+  width: 108px;
+  height: 23px;
+  position: absolute;
+  left: 426px;
+  font-style: oblique;
+  line-height: 23px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Page6 .h6 .content-2 {
+  /* border: 1px solid red; */
+  width: 268px;
+  height: 23px;
+  position: absolute;
+  left: 343px;
+  top: 46px;
+  font-weight: bold;
+  line-height: 23px;
+  text-align: center;
+}
+
+.Page6 .h6 .content-2 ::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #f38181;
+  margin-top: 40px;
+  margin-left: 104px;
+}
+
+.Page6 .h6 .content-3 {
+  /* border: 1px solid red; */
+  width: 954px;
+  height: 39px;
+  position: absolute;
+  left: 0px;
+  top: 159px;
+  text-align: center;
+}
+
+.Page6 .b6 {
+  /* border: 1px solid red; */
+  width: 1200px;
+  height: 470px;
+  margin-top: 92px;
+  margin-left: 360px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Page6 .b6 .b6-box1 {
+  width: 380px;
+  height: 470px;
+  background-color: #95e1d3;
+  position: relative;
+}
+
+.Page6 .b6 .b6-box11 {
+  width: 380px;
+  height: 470px;
+  position: absolute;
+  left: -10px;
+  bottom: 10px;
+}
+
+.Page6 .b6 .b6-box2 {
+  width: 380px;
+  height: 470px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.Page6 .b6 .b6-box3 {
+  width: 380px;
+  height: 470px;
+}
+
+.Page6 .b6 .b6-box4 {
+  /* border: 1px solid red; */
+  width: 380px;
+  height: 72px;
+  position: relative;
+}
+
+.Page6 .b6 .b6-box4 :first-child {
+  width: 380px;
+  font-size: 14px;
+  line-height: 10px;
+  position: absolute;
+  top: 31px;
+  text-align: center;
+}
+
+.Page6 .b6 .b6-box4 :last-child {
+  width: 380px;
+  font-size: 15px;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 56px;
+  color: #999999;
+  font-style: oblique;
+}
+
+.Page6 .b6 .b6-box5 {
+  /* border: 1px solid red; */
+  width: 380px;
+  height: 72px;
+  margin-left: 30px;
+  margin-right: 30px;
+  position: relative;
+}
+.Page6 .b6 .b6-box5 :first-child {
+  width: 380px;
+  font-size: 14px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 31px;
+  text-align: center;
+}
+
+.Page6 .b6 .b6-box5 :last-child {
+  width: 380px;
+  font-size: 15px;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 56px;
+  text-align: center;
+  color: #999999;
+  font-style: oblique;
+}
+
+.Page6 .b6 .b6-box6 {
+  /* border: 1px solid red; */
+  width: 380px;
+  height: 72px;
+  position: relative;
+}
+
+.Page6 .b6 .b6-box6 :first-child {
+  font-size: 14px;
+  line-height: 10px;
+  position: absolute;
+  width: 380px;
+  top: 31px;
+  text-align: center;
+}
+
+.Page6 .b6 .b6-box6 :last-child {
+  width: 380px;
+  font-size: 15px;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 56px;
+  text-align: center;
+  color: #999999;
+  font-style: oblique;
+}
+
+.Page6 .f6 {
+  width: 1920px;
+  height: 250px;
+  background-color: #f8f8f8;
+  border: 1px solid white;
+  margin-top: 189px;
+}
+
+.Page6 .f6 .f6-img {
+  width: 1212px;
+  height: 149px;
+  margin-left: 357px;
+  margin-top: 51px;
+}

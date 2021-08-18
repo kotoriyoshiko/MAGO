@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+/* body{
+    border: 1px solid white;
+} */
+
+.Page1{
+    width: 1920px;
+    height: 1000px;
+    background-image: url("../img/banner.png");
+    border: 1px solid white;
+}
+
+.Page1 main{
+    height: 944px;
+    width: 1210px;
+    /* background: pink; */
+    margin-left: 360px;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    height: 65px;
+
+}
+
+.Page1 header .logo{
+    width: 86px;
+    height: 23px;
+    /* border: 1px solid red; */
+    margin-left: 2px;
+    margin-top: 28px;
+}
+
+.Page1 header ul{
+    display: flex;
+    margin-top: 40px;
+}
+
+.Page1 header li{
+    
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 58px;
+}
+
+.Page1 header .one{
+    border-width: 0 0 3px 0;
+    border-style: solid;
+    border-color: #fce38a;
+    font-size: 14px;
+    color: #fce38a;
+    margin-left: 58px;
+}
+
+.Page1 .content .content-img1{
+    position: absolute;
+    top: 229px;
+    left: 353px;
+}
+
+.Page1 .content .content-img2{
+    position: absolute;
+    top: 358px;
+    left: 200px;
+}
+
+.Page1 .content .content-img3{
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    top: 677px;
+    left: 570px;
+    background:#ffffff ;
+}
+
+.Page1 .content .content-button{
+    position: absolute;
+    background: none;
+    border: 3px solid #ffffff;
+    left: 520px;
+    top: 730px;
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.Page1 footer{
+    /* border: 1px solid red; */
+    display: flex;
+    position: absolute;
+    top: 927px;
+}
+
+.Page1 footer .box{
+    /* border: 1px solid red; */
+    width: 280px;
+    height: 45px;
+    background: none;
+    border-top: 3px solid #ffffff;
+    margin-left: 30px; 
+    position: relative;
+}
+
+.box1::after{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 3px;
+    background: #f38181;
+    position: absolute;
+    top: -3px;
+}
+
+.Page1 footer .box .text{
+    /* border: 1px solid red; */
+    
+    height: 17px;
+    position: absolute;
+    bottom: 0;
+}
+
+.Page1 footer .box .text span{
+    font-size: 18px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+.Page1 footer .box .text :first-child{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+

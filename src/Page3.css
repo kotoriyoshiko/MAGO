@@ -1,0 +1,236 @@
+.Page3 {
+  width: 1920px;
+  height: 650px;
+  border: 1px solid white;
+}
+
+.Page3 .content3 {
+  border: 1px solid white;
+  width: 1200px;
+  height: 419px;
+  margin-left: 360px;
+  margin-top: 109px;
+  position: relative;
+}
+
+.Page3 .content3 .content-1 {
+  /* border: 1px solid red; */
+  width: 130px;
+  height: 24px;
+  position: absolute;
+  left: 539px;
+  font-style: oblique;
+  line-height: 23px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Page3 .content3 .content-2 {
+  /* border: 1px solid red; */
+  width: 309px;
+  height: 23px;
+  position: absolute;
+  left: 444px;
+  top: 46px;
+  font-weight: bold;
+  line-height: 23px;
+  text-align: center;
+}
+
+.Page3 .content3 .content-2 ::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #f38181;
+  margin-top: 42px;
+  margin-left: 126px;
+}
+
+.Page3 .content3 .list1 {
+  width: 1200px;
+  height: 120px;
+  margin-top: 180px;
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+  /* border: 1px solid red; */
+}
+
+.Page3 .content3 .list1 div {
+  /* border: 1px solid blue; */
+  width: 333px;
+  height: 69px;
+}
+
+.Page3 .content3 .list1 .b1 {
+  margin-left: 30px;
+  display: flex;
+}
+
+.Page3 .content3 .list1 .b1 .b1-img {
+  width: 60px;
+}
+
+.Page3 .content3 .list1 .b1 .b1-text :first-child {
+  display: block;
+  width: 110px;
+  height: 10px;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.Page3 .content3 .list1 .b1 .b1-text :last-child {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 273px;
+  height: 39px;
+  font-size: 15px;
+  color: #999999;
+}
+
+.Page3 .content3 .list1 .b2 {
+  margin-left: 68px;
+  display: flex;
+}
+
+.Page3 .content3 .list1 .b2 .b2-img {
+  width: 60px;
+}
+
+.Page3 .content3 .list1 .b2 .b2-text :first-child {
+  width: 91px;
+  height: 10px;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.Page3 .content3 .list1 .b2 .b2-text :last-child {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 261px;
+  height: 39px;
+  font-size: 15px;
+  color: #999999;
+}
+
+.Page3 .content3 .list1 .b3 {
+  margin-left: 79px;
+  display: flex;
+}
+
+.Page3 .content3 .list1 .b3 .b3-img {
+  width: 60px;
+}
+
+.Page3 .content3 .list1 .b3 .b3-text :first-child {
+  width: 82px;
+  height: 10px;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.Page3 .content3 .list1 .b3 .b3-text :last-child {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 282px;
+  height: 39px;
+  font-size: 15px;
+  color: #999999;
+}
+
+.Page3 .content3 .list2 {
+  width: 1200px;
+  height: 120px;
+  margin-top: 49px;
+  display: flex;
+  /* border-bottom: 1px solid #e5e5e5; */
+  /* border: 1px solid red; */
+}
+
+.Page3 .content3 .list2 div {
+  /* border: 1px solid blue; */
+  width: 333px;
+  height: 69px;
+}
+
+.Page3 .content3 .list2 .b1 {
+  margin-left: 30px;
+  display: flex;
+}
+
+.Page3 .content3 .list2 .b1 .b1-img {
+  width: 60px;
+}
+
+.Page3 .content3 .list2 .b1 .b1-text :first-child {
+  display: block;
+  width: 110px;
+  height: 10px;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.Page3 .content3 .list2 .b1 .b1-text :last-child {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 273px;
+  height: 39px;
+  font-size: 15px;
+  color: #999999;
+}
+
+.Page3 .content3 .list2 .b2 {
+  margin-left: 68px;
+  display: flex;
+}
+
+.Page3 .content3 .list2 .b2 .b2-img {
+  width: 60px;
+}
+
+.Page3 .content3 .list2 .b2 .b2-text :first-child {
+  width: 91px;
+  height: 10px;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.Page3 .content3 .list2 .b2 .b2-text :last-child {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 261px;
+  height: 39px;
+  font-size: 15px;
+  color: #999999;
+}
+
+.Page3 .content3 .list2 .b3 {
+  margin-left: 79px;
+  display: flex;
+}
+
+.Page3 .content3 .list2 .b3 .b3-img {
+  width: 60px;
+}
+
+.Page3 .content3 .list2 .b3 .b3-text :first-child {
+  width: 82px;
+  height: 10px;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.Page3 .content3 .list2 .b3 .b3-text :last-child {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 282px;
+  height: 39px;
+  font-size: 15px;
+  color: #999999;
+}
