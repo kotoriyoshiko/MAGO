@@ -1,79 +1,64 @@
-.Page5 {
-  width: 1920px;
-  height: 1190px;
-  border: 1px solid white;
+.page-5 {
+  width: 100%;
+  /* min-width: 1200px; */
+  /* border: 1px solid red; */
 }
 
-.Page5 .h5 {
-  /* border: 1px solid red; */
-  width: 954px;
-  height: 198px;
-  margin-left: 483px;
-  margin-top: 91px;
-  position: relative;
+.page-5 .page-main {
+  /* border: 1px solid blue; */
+  width: 1200px;
+  margin: auto;
 }
 
-.Page5 .h5 .content-1 {
+.page-5 .page-main .title-1 {
   /* border: 1px solid red; */
-  width: 108px;
-  height: 23px;
-  position: absolute;
-  left: 426px;
+  line-height: 23px;
+  font-weight: bold;
+  padding-top: 91px;
+  text-align: center;
   font-style: oblique;
-  line-height: 23px;
-  text-align: center;
-  font-weight: bold;
 }
 
-.Page5 .h5 .content-2 {
-  /* border: 1px solid red; */
-  width: 268px;
-  height: 23px;
-  position: absolute;
-  left: 343px;
-  top: 46px;
+.page-5 .page-main .title-2 {
+  padding-top: 23px;
   font-weight: bold;
   line-height: 23px;
   text-align: center;
 }
 
-.Page5 .h5 .content-2 ::after {
+.page-5 .page-main .title-2 ::after {
   content: "";
-  display: block;
   width: 60px;
   height: 3px;
-  background: #f38181;
+  margin: auto;
+  display: block;
   margin-top: 40px;
-  margin-left: 104px;
+  background: #f38181;
 }
 
-.Page5 .h5 .content-3 {
-  /* border: 1px solid red; */
-  width: 954px;
-  height: 39px;
-  position: absolute;
-  left: 0px;
-  top: 159px;
+.page-5 .page-main .title-3 {
+  padding-left: 139px;
+  padding-right: 128px;
+  margin-top: 47px;
   text-align: center;
 }
 
-.Page5 .b5 {
-  width: 1211px;
+.page-5 .page-main .b5 {
   height: 380px;
   /* border: 1px solid red; */
-  margin-left: 349px;
+
   margin-top: 92px;
   display: flex;
 }
 
-.Page5 .b5 .b5-img {
+.page-5 .page-main .b5 .b5-img {
   width: 570px;
   height: 380px;
   margin-left: 11px;
   /* border: 1px solid red; */
 }
 
-.Page5 .b5 .b5-info {
+.page-5 .page-main .b5 .b5-info {
   width: 600px;
   height: 380px;
   margin-left: 11px;
@@ -81,35 +66,35 @@
   margin-left: 30px;
 }
 
-.Page5 .b5 .b5-info1 {
+.page-5 .page-main .b5 .b5-info1 {
   border: solid 1px #e5e5e5;
   border-bottom: none;
   height: 60px;
   display: flex;
   position: relative;
 }
-.Page5 .b5 .b5-info1 .b5-info1-img {
+.page-5 .page-main .b5 .b5-info1 .b5-info1-img {
   margin: 15px;
 }
 
-.Page5 .b5 .b5-info1 .b5-info1-text {
+.page-5 .page-main .b5 .b5-info1 .b5-info1-text {
   line-height: 60px;
   font-size: 14px;
   color: #333333;
 }
 
-.Page5 .b5 .b5-info1 .b5-info1-button {
+.page-5 .page-main .b5 .b5-info1 .b5-info1-button {
   position: absolute;
   left: 558px;
   top: 24px;
 }
 
-.Page5 .b5 .b5-info2 {
+.page-5 .page-main .b5 .b5-info2 {
   border: solid 1px #e5e5e5;
   height: 181px;
 }
 
-.Page5 .b5 .b5-info2 .b5-info2-text {
+.page-5 .page-main .b5 .b5-info2 .b5-info2-text {
   overflow: scroll;
   overflow-x: hidden;
   width: 550px;
@@ -120,23 +105,23 @@
   font-style: oblique;
 }
 
-.Page5 .b5 .b5-info2 .b5-info2-text span {
+.page-5 .page-main .b5 .b5-info2 .b5-info2-text span {
   width: 525px;
   display: inline-block;
 }
 
-.Page5 .b5 .b5-info2 .b5-info2-text::-webkit-scrollbar {
+.page-5 .page-main .b5 .b5-info2 .b5-info2-text::-webkit-scrollbar {
   width: 5px;
   height: 90px;
   background-color: #f5f5f5;
 }
 
-.Page5 .b5 .b5-info2 .b5-info2-text::-webkit-scrollbar-thumb {
+.page-5 .page-main .b5 .b5-info2 .b5-info2-text::-webkit-scrollbar-thumb {
   border-radius: 3px;
   background-color: #95e1d3;
 }
 
-.Page5 .b5 .b5-info3 {
+.page-5 .page-main .b5 .b5-info3 {
   border: solid 1px #e5e5e5;
   height: 60px;
   margin-top: 10px;
@@ -144,24 +129,24 @@
   position: relative;
 }
 
-.Page5 .b5 .b5-info3 .b5-info3-img {
+.page-5 .page-main .b5 .b5-info3 .b5-info3-img {
   margin: 15px;
 }
 
-.Page5 .b5 .b5-info3 .b5-info3-text {
+.page-5 .page-main .b5 .b5-info3 .b5-info3-text {
   line-height: 60px;
   font-size: 14px;
   color: #333333;
 }
 
-.Page5 .b5 .b5-info3 .b5-info3-button {
+.page-5 .page-main .b5 .b5-info3 .b5-info3-button {
   position: absolute;
   left: 558px;
   top: 24px;
   transform: rotate(180deg);
 }
 
-.Page5 .b5 .b5-info4 {
+.page-5 .page-main .b5 .b5-info4 {
   border: solid 1px #e5e5e5;
   height: 60px;
   margin-top: 10px;
@@ -169,17 +154,17 @@
   position: relative;
 }
 
-.Page5 .b5 .b5-info4 .b5-info4-img {
+.page-5 .page-main .b5 .b5-info4 .b5-info4-img {
   margin: 15px;
 }
 
-.Page5 .b5 .b5-info4 .b5-info4-text {
+.page-5 .page-main .b5 .b5-info4 .b5-info4-text {
   line-height: 60px;
   font-size: 14px;
   color: #333333;
 }
 
-.Page5 .b5 .b5-info4 .b5-info4-button {
+.page-5 .page-main .b5 .b5-info4 .b5-info4-button {
   position: absolute;
   left: 558px;
   top: 24px;
@@ -187,42 +172,43 @@
   /* border: 1px solid red; */
 }
 
-.Page5 .ad {
-  width: 1920px;
+.page-5 .ad {
+  width: 100%;
   height: 310px;
   background-color: #f8f8f8;
   margin-top: 120px;
-  border: 1px solid white;
+  overflow: hidden;
 }
 
-.Page5 .ad .ad-info {
+.page-5 .ad .ad-info {
   /* border: 1px solid red; */
-  width: 978px;
+  width: 1200px;
   height: 150px;
-  margin-left: 470px;
+  margin: auto;
   margin-top: 70px;
   position: relative;
 }
 
-.Page5 .ad .ad-info .ad1 {
+.page-5 .ad .ad-info .ad1 {
+  margin-left: 121px;
   width: 150px;
   height: 150px;
   border: solid 3px #95e1d3;
 }
 
-.Page5 .ad .ad-info .ad1 .ad1-img {
+.page-5 .ad .ad-info .ad1 .ad1-img {
   width: 63px;
   height: 61px;
   margin-left: 44px;
   margin-top: 45px;
 }
 
-.Page5 .ad .ad-info .ad2 {
+.page-5 .ad .ad-info .ad2 {
   /* border: 1px solid red; */
   width: 767px;
   height: 96px;
   position: absolute;
-  left: 211px;
+  left: 332px;
   top: 10px;
   font-size: 24px;
   color: #999999;
@@ -230,35 +216,35 @@
   font-style: oblique;
 }
 
-.Page5 .ad .ad-info .ad3 {
+.page-5 .ad .ad-info .ad3 {
   font-size: 24px;
   font-style: oblique;
   /* border: 1px solid red; */
   position: absolute;
-  left: 280px;
+  left: 390px;
   top: 129px;
 }
 
-.Page5 .ad .ad-info .ad4 {
+.page-5 .ad .ad-info .ad4 {
   /* border: 1px solid red; */
   width: 60px;
   height: 3px;
   background-color: #f38181;
   position: absolute;
-  left: 210px;
+  left: 332px;
   bottom: 7px;
 }
 
-.Page5 .ad .ad-button1 {
+.page-5 .ad .ad-button1 {
   position: absolute;
-  left: -75px;
-  top: 64px;
+  left: 0;
+  top: 50%;
   transform: rotate(-90deg);
 }
 
-.Page5 .ad .ad-button2 {
+.page-5 .ad .ad-button2 {
   position: absolute;
-  left: 1053px;
-  top: 64px;
+  right: 0;
+  top: 50%;
   transform: rotate(90deg);
 }

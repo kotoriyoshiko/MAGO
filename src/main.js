@@ -1,0 +1,1 @@
+$("body").css("width", $(window).width());

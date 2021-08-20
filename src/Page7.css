@@ -1,91 +1,102 @@
-.Page7 {
-  height: 1631px;
-  width: 1920px;
-  border: 1px solid white;
-}
-.Page7 .h7 {
+.page-7 {
+  width: 100%;
+  /* min-width: 1200px; */
   /* border: 1px solid red; */
-  width: 954px;
-  height: 198px;
-  margin-left: 483px;
-  margin-top: 110px;
-  position: relative;
 }
 
-.Page7 .h7 .content-1 {
+.page-7 .page-main {
+  /* border: 1px solid blue; */
+  width: 1200px;
+  margin: auto;
+}
+
+.page-7 .page-main .title-1 {
   /* border: 1px solid red; */
-  width: 108px;
-  height: 23px;
-  position: absolute;
-  left: 426px;
+  line-height: 23px;
+  font-weight: bold;
+  padding-top: 91px;
+  text-align: center;
   font-style: oblique;
-  line-height: 23px;
-  text-align: center;
-  font-weight: bold;
 }
 
-.Page7 .h7 .content-2 {
-  /* border: 1px solid red; */
-  width: 268px;
-  height: 23px;
-  position: absolute;
-  left: 343px;
-  top: 46px;
+.page-7 .page-main .title-2 {
+  padding-top: 23px;
   font-weight: bold;
   line-height: 23px;
   text-align: center;
 }
 
-.Page7 .h7 .content-2 ::after {
+.page-7 .page-main .title-2 ::after {
   content: "";
-  display: block;
   width: 60px;
   height: 3px;
-  background: #f38181;
+  margin: auto;
+  display: block;
   margin-top: 40px;
-  margin-left: 104px;
+  background: #f38181;
 }
 
-.Page7 .h7 .content-3 {
-  /* border: 1px solid red; */
-  width: 954px;
-  height: 39px;
-  position: absolute;
-  left: 0px;
-  top: 159px;
+.page-7 .page-main .title-3 {
+  padding-left: 139px;
+  padding-right: 128px;
+  margin-top: 47px;
   text-align: center;
 }
-.Page7 .b7 {
+/* .page-7 .b7-img {
+  width: 100%;
+} */
+.page-7 .b7 {
   /* border: 1px solid red; */
-  width: 1920px;
-  height: 780px;
+  /* width: 1920px; */
+  /* height: 780px; */
   margin-top: 102px;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
-.Page7 .b7 div {
-  width: 480px;
+
+.page-7 .b7 img{
+  width: 100%;
+  height: 100%
+}
+
+.page-7 .b7 div {
+  width: 25%;
   height: 390px;
   /* border: 1px solid red; */
 }
 
-.Page7 .ad7 {
-  width: 1920px;
-  height: 440px;
-  background-color: #f8f8f8;
-  border: 1px solid white;
+.page-7 .b8 div {
+  width: 25%;
+  /* height: 390px; */
+  /* border: 1px solid red; */
 }
 
-.Page7 .ad7 .ad7-info {
+.page-7 .b8 {
   /* border: 1px solid red; */
-  width: 1153px;
+  /* width: 1920px; */
+  /* height: 780px; */
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.page-7 .ad7 {
+  overflow: hidden;
+  width: 100%;
+  height: 440px;
+  background-color: #f8f8f8;
+  /* border: 1px solid white; */
+}
+
+.page-7 .ad7 .ad7-info {
+  /* border: 1px solid red; */
+  width: 1200px;
   height: 232px;
-  margin-left: 382px;
+  margin: auto;
   margin-top: 92px;
   position: relative;
 }
 
-.Page7 .ad7 .ad7-info .img {
+.page-7 .ad7 .ad7-info .img {
   /* border: 1px solid red; */
   position: absolute;
   width: 210px;
@@ -96,7 +107,7 @@
   overflow: hidden;
 }
 
-.Page7 .ad7 .ad7-info .text {
+.page-7 .ad7 .ad7-info .text {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: oblique;
@@ -110,7 +121,7 @@
   top: 48px;
 }
 
-.Page7 .ad7 .ad7-info .text1 {
+.page-7 .ad7 .ad7-info .text1 {
   background-color: #f38181;
   position: absolute;
   width: 60px;
@@ -119,7 +130,7 @@
   top: 178px;
 }
 
-.Page7 .ad7 .ad7-info .infoname {
+.page-7 .ad7 .ad7-info .infoname {
   font-style: oblique;
   font-size: 24px;
   color: #333333;
@@ -130,12 +141,12 @@
   top: 164px;
 }
 
-.Page7 .ad7 .ad7-info .button1 {
+.page-7 .ad7 .ad7-info .button1 {
   position: absolute;
   top: 102px;
 }
 
-.Page7 .ad7 .ad7-info .button2 {
+.page-7 .ad7 .ad7-info .button2 {
   position: absolute;
   left: 1141px;
   top: 102px;

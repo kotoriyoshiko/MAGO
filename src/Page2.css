@@ -1,115 +1,95 @@
-.Page2 {
-  width: 1920px;
-  height: 1020px;
-  border: 1px solid white;
+.page-2 {
+  width: 100%;
+  /* min-width: 1200px; */
+  /* border: 1px solid red; */
 }
 
-.Page2 header {
-  /* border: 1px solid red; */
-  width: 954px;
-  height: 198px;
-  margin-left: 483px;
-  margin-top: 91px;
-  position: relative;
+.page-2 .page-main {
+  /* border: 1px solid blue; */
+  width: 1200px;
+  margin: auto;
 }
 
-.Page2 header .content-1 {
+.page-2 .page-main .title-1 {
   /* border: 1px solid red; */
-  width: 108px;
-  height: 23px;
-  position: absolute;
-  left: 426px;
+  line-height: 23px;
+  font-weight: bold;
+  padding-top: 91px;
+  text-align: center;
   font-style: oblique;
-  line-height: 23px;
-  text-align: center;
-  font-weight: bold;
 }
 
-.Page2 header .content-2 {
-  /* border: 1px solid red; */
-  width: 268px;
-  height: 23px;
-  position: absolute;
-  left: 343px;
-  top: 46px;
+.page-2 .page-main .title-2 {
+  padding-top: 23px;
   font-weight: bold;
   line-height: 23px;
   text-align: center;
 }
 
-.Page2 header .content-2 ::after {
+.page-2 .page-main .title-2 ::after {
   content: "";
-  display: block;
   width: 60px;
   height: 3px;
-  background: #f38181;
+  margin: auto;
+  display: block;
   margin-top: 40px;
-  margin-left: 104px;
+  background: #f38181;
 }
 
-.Page2 header .content-3 {
-  /* border: 1px solid red; */
-  width: 954px;
-  height: 39px;
-  position: absolute;
-  left: 0px;
-  top: 159px;
+.page-2 .page-main .title-3 {
+  padding-left: 139px;
+  padding-right: 128px;
+  margin-top: 47px;
   text-align: center;
 }
 
-.Page2 .content {
+.page-2 .page-main .content {
   /* border: 1px solid red; */
-  width: 1221px;
-  height: 461px;
-  margin-left: 344px;
+  margin: auto;
   position: relative;
   display: flex;
+  justify-content: space-between;
 }
 
-.Page2 .content .box {
-  /* border: 1px solid red; */
+.page-2 .page-main .content .box {
   width: 380px;
   height: 250px;
   margin-top: 101px;
 }
 
-.Page2 .content .box11 {
+.page-2 .page-main .content .box11 {
   margin-left: 16px;
   background: #95e1d3;
   position: relative;
 }
-.Page2 .content .box12 {
+.page-2 .page-main .content .box12 {
   width: 380px;
   height: 250px;
   position: absolute;
   bottom: 10px;
   left: -10px;
-  /* border: 1px solid red; */
 }
 
-.Page2 .content .box2 {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.Page2 footer {
-  height: 270px;
+.page-2 .page-main2 {
   background: #95e1d3;
 }
-.Page2 footer .main2 {
+
+.page-2 .page-main2 .main2 {
   width: 1200px;
   display: flex;
-  margin-left: 359px;
+  margin: auto;
+  margin-top: 130px;
+  background: #95e1d3;
 }
 
-.Page2 footer .main2 .info1 {
+.page-2 .page-main2 .main2 .info1 {
   border: 1px solid rgba(255, 255, 255, 0.3);
   width: 240px;
   height: 270px;
   position: relative;
 }
 
-.Page2 footer .main2 .info1 .info1-number {
+.page-2 .page-main2 .main2 .info1 .info1-number {
   position: absolute;
   width: 85px;
   height: 51px;
@@ -120,7 +100,7 @@
   line-height: 51px;
 }
 
-.Page2 footer .main2 .info1 .info1-text {
+.page-2 .page-main2 .main2 .info1 .info1-text {
   position: absolute;
   width: 169px;
   height: 10px;
@@ -131,14 +111,14 @@
   line-height: 10px;
 }
 
-.Page2 footer .main2 .info2 {
+.page-2 .page-main2 .main2 .info2 {
   border: 1px solid rgba(255, 255, 255, 0.3);
   width: 240px;
   height: 270px;
   position: relative;
 }
 
-.Page2 footer .main2 .info2 .info2-number {
+.page-2 .page-main2 .main2 .info2 .info2-number {
   position: absolute;
   width: 111px;
   height: 52px;
@@ -150,7 +130,7 @@
   text-align: center;
 }
 
-.Page2 footer .main2 .info2 .info2-text {
+.page-2 .page-main2 .main2 .info2 .info2-text {
   position: absolute;
   width: 101px;
   height: 10px;
@@ -162,14 +142,14 @@
   text-align: center;
 }
 
-.Page2 footer .main2 .info3 {
+.page-2 .page-main2 .main2 .info3 {
   border: 1px solid rgba(255, 255, 255, 0.3);
   width: 240px;
   height: 270px;
   position: relative;
 }
 
-.Page2 footer .main2 .info3 .info3-number {
+.page-2 .page-main2 .main2 .info3 .info3-number {
   position: absolute;
   width: 70px;
   height: 52px;
@@ -181,7 +161,7 @@
   text-align: center;
 }
 
-.Page2 footer .main2 .info3 .info3-text {
+.page-2 .page-main2 .main2 .info3 .info3-text {
   position: absolute;
   width: 119px;
   height: 10px;
@@ -192,14 +172,14 @@
   line-height: 10px;
 }
 
-.Page2 footer .main2 .info4 {
+.page-2 .page-main2 .main2 .info4 {
   border: 1px solid rgba(255, 255, 255, 0.3);
   width: 240px;
   height: 270px;
   position: relative;
 }
 
-.Page2 footer .main2 .info4 .info4-number {
+.page-2 .page-main2 .main2 .info4 .info4-number {
   position: absolute;
   width: 87px;
   height: 52px;
@@ -211,7 +191,7 @@
   text-align: center;
 }
 
-.Page2 footer .main2 .info4 .info4-text {
+.page-2 .page-main2 .main2 .info4 .info4-text {
   position: absolute;
   width: 111px;
   height: 10px;
@@ -223,14 +203,14 @@
   text-align: center;
 }
 
-.Page2 footer .main2 .info5 {
+.page-2 .page-main2 .main2 .info5 {
   border: 1px solid rgba(255, 255, 255, 0.3);
   width: 240px;
   height: 270px;
   position: relative;
 }
 
-.Page2 footer .main2 .info5 .info5-number {
+.page-2 .page-main2 .main2 .info5 .info5-number {
   position: absolute;
   width: 87px;
   height: 51px;
@@ -242,7 +222,7 @@
   text-align: center;
 }
 
-.Page2 footer .main2 .info5 .info5-text {
+.page-2 .page-main2 .main2 .info5 .info5-text {
   position: absolute;
   width: 72px;
   height: 10px;

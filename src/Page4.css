@@ -1,62 +1,59 @@
-.Page4 {
-  width: 1920px;
+.page-4 {
+  width: 100%;
+
+  /* border: 1px solid white;                       */
+  background: no-repeat url(../img/feauture.png);
+  background-size: 100% 100%;
+}
+
+.page-4 .page-main {
+  /* border: 1px solid blue; */
+  width: 1200px;
   height: 850px;
-  border: 1px solid white;                      
-  background-image: url(../img/feauture.png);
+  margin: auto;
   position: relative;
 }
 
-
-
-.Page4 .content-1 {
+.page-4 .page-main .title-1 {
   /* border: 1px solid red; */
-  width: 131px;
-  height: 24px;
-  position: absolute;
-  left: 897px;
-  top: 109px;
+  line-height: 23px;
+  font-weight: bold;
+  padding-top: 91px;
+  text-align: center;
   font-style: oblique;
-  line-height: 24px;
-  text-align: center;
-  font-weight: bold;
 }
 
-.Page4 .content-2 {
-  /* border: 1px solid red; */
-  width: 245px;
-  height: 27px;
-  position: absolute;
-  left: 836px;
-  top: 155px;
+.page-4 .page-main .title-2 {
+  padding-top: 23px;
   font-weight: bold;
-  line-height: 27px;
+  line-height: 23px;
   text-align: center;
 }
 
-.Page4 .content-2 ::after {
+.page-4 .page-main .title-2 ::after {
   content: "";
-  display: block;
   width: 60px;
   height: 3px;
+  margin: auto;
+  display: block;
+  margin-top: 40px;
   background: #f38181;
-  margin-top: 38px;
-  margin-left: 94px;
 }
 
-.Page4 .ipad{
+.page-4 .page-main .ipad {
   width: 477px;
   height: 582px;
   /* border: 1px solid red; */
   position: absolute;
-  left: 695px;
-  top: 268px;
+  left: 350px;
+  bottom: 0;
 }
 
-.Page4 .iphone{
+.page-4 .page-main .iphone {
   width: 274px;
   height: 476px;
   /* border: 1px solid red; */
   position: absolute;
-  left: 1057px;
-  top: 465px;
+  left: 700px;
+  bottom: -91px;
 }
